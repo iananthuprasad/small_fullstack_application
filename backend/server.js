@@ -2,10 +2,8 @@ const express=require('express')
 const dotenv=require('dotenv')
 const morgan=require('morgan')
 const bodyparser=require('body-parser')
-const path=require("path")
+//const path=require("path")
 const cors = require("cors");
-
-
 const connectDB=require('./server/database/db')
 
 const app=express();
